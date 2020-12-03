@@ -1,0 +1,82 @@
+GOOGLER
+
+googleres una herramienta poderosa para Google (web, noticias, videos y 
+búsqueda de sitios) desde la línea de comandos. Muestra el título, la URL y
+el resumen de cada resultado, que se puede abrir directamente en un navegador
+desde la terminal. Los resultados se obtienen en páginas (con navegación de página).
+Admite búsquedas secuenciales en una sola googlerinstancia.
+
+Google hola mundo :
+
+ $ googler hello world
+Fetch 15 resultados actualizados en los últimos 14 meses , a partir del 3rd 
+resultado de las palabras clave Libro de la Selva en el sitio imdb.com:
+ $ googler -n 15 -s 3 -t m14 -w imdb.com jungle book
+
+O en lugar de los últimos 14 meses, busque resultados específicamente entre el 4
+de abril de 2016 y el 31 de diciembre de 2016:
+
+ $ googler -n 15 -s 3 --from 04/04/2016 --to 12/31/2016 -w imdb.com jungle book
+Leer noticias recientes sobre gadgets:
+
+ $ googler -N gadgets
+Obtenga los resultados del cricket IPL del servidor de Google India en inglés :
+
+ $ googler -c in -l en IPL cricket
+Búsqueda de videos en PyCon 2020:
+
+ $ googler -V PyCon 2020
+Buscar texto citado :
+
+ $ googler it\'s a \"beautiful world\" in spring
+Busque un tipo de archivo específico :
+
+ $ googler instrumental filetype:mp3
+Deshabilite la corrección ortográfica automática , por ejemplo, obtenga resultados para en googlerlugar
+de google:
+
+ $ googler -x googler
+Me siento afortunado de buscar:
+
+ $ googler -j leather jackets
+Búsqueda específica del sitio web :
+
+$ googler -w amazon.com -w ebay.com digital camera
+La búsqueda específica del sitio continúa en omniprompt.
+
+Los argumentos posicionales se unen (con espacios en blanco delimitadores) para formar la consulta final, por lo que puede ser creativo con sus alias. Por ejemplo, siempre excluya seoarticlefactory.com de los resultados de búsqueda:
+
+$ alias googler='googler " -site:seoarticlefactory.com"'
+$ googler '<hugely popular keyword filled with SEO garbage>'
+Alias ​​para encontrar definiciones de palabras :
+
+alias define='googler -n 2 define'
+Busque n, p, o, O, q, g keywordso un índice de resultado al omniprompt : como el omniprompt reconoce estas llaves o cadenas de índice como comandos, es necesario usar el prefijo con g, por ejemplo,
+
+g n
+g g keywords
+g 1
+Redirección de entrada y salida :
+
+$ googler -C hello world < input > output
+Tenga en cuenta que -Ces necesario para evitar imprimir caracteres de control (para salida en color).
+
+Salida de tubería :
+
+$ googler -C hello world | tee output
+Utilice un esquema de color personalizado , por ejemplo, un esquema de color cálido diseñado para Solarized Dark ( captura de pantalla ):
+
+$ googler --colors bjdxxy google
+$ GOOGLER_COLORS=bjdxxy googler google
+Tráfico de túnel a través de un proxy HTTPS , por ejemplo, una instancia local de Privoxy escuchando en el puerto 8118:
+
+$ googler --proxy localhost:8118 google
+De forma predeterminada, https_proxyse utiliza la variable de entorno , si está definida.
+
+Cite varias palabras clave de búsqueda para autocompletar (usando el script de finalización):
+
+$ googler 'hello w<TAB>
+Más ayuda :
+
+$ googler -h
+$ man googler

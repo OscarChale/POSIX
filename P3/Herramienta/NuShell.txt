@@ -1,0 +1,27 @@
+Nushell
+
+Nu se inspira en proyectos como PowerShell, lenguajes de programación funcionales y 
+herramientas CLI modernas. En lugar de pensar en archivos y servicios como flujos de
+texto sin procesar, Nu considera cada entrada como algo con estructura. Por ejemplo
+cuando enumera el contenido de un directorio, lo que obtiene es una tabla de filas
+donde cada fila representa un elemento en ese directorio. Estos valores se pueden
+canalizar a través de una serie de pasos, en una serie de comandos denominados
+"canalización*
+
+Los comandos están separados por el símbolo de tubería ( |) para indicar una tubería
+que fluye de izquierda a derecha.
+
+> ls | donde tipo == " Dir "  | vista automática
+───┬────────┬──────┬───────┬──────────────
+ # │ nombre │ tipo │ tamaño │ modificado
+───┼────────┼──────┼───────┼──────────────
+ 0 │ activos │ Dir │ 128 B │ hace 5 meses
+ 1 │ cajas │ Dir │ 704 B │ Hace 50 minutos
+ 2 │ debian │ Dir │ 352 B │ hace 5 meses
+ 3 │ docker │ Dir │ 288 B │ hace 3 meses
+ 4 │ docs │ Dir │ 192 B │ Hace 50 minutos
+ 5 │ imágenes │ Dir │ 160 B │ hace 5 meses
+ 6 │ src │ Dir │ 128 B │ hace 1 día
+ 7 │ target │ Dir │ 160 B │ hace 5 días
+ 8 │ tests │ Dir │ 192 B │ hace 3 meses
+───┴────────┴──────┴───────┴──────────────

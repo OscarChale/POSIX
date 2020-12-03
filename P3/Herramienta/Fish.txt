@@ -1,0 +1,30 @@
+Fish-command
+fish es un shell de línea de comandos inteligente y fácil de usar para Linux, macOS
+y el resto de la familia.
+
+Autosugestiones
+Miniatura de autosugestiónFish sugiere comandos a medida que escribe basándose en 
+el historial y las finalizaciones, al igual que un navegador web. 
+
+Scripting sano
+Miniatura de secuencias de comandosfish es completamente programable y su sintaxis
+es simple, limpia y consistente. Nunca volverás a escribir esac.
+
+Finalizaciones de página de manual
+Miniatura de finalizaciones de página de manualOtros shells admiten finalizaciones
+programables, pero solo Fish las genera automáticamente al analizar las páginas
+de manual instaladas.
+
+Glorioso color VGA
+Miniatura de coloresFish admite color verdadero de 24 bits, lo último en tecnología
+de terminales. Contempla el arcoíris monoespaciado.
+
+Configuración basada en web
+Miniatura de Web ConfigPara aquellos pocos afortunados con una computadora gráfica,
+puede configurar sus colores y ver funciones, variables e historial
+todo desde una página web.
+
+Funciona fuera de la caja
+Miniatura que funciona desde el primer momentoFish lo deleitará con características
+como finalización de pestañas y resaltado de sintaxis que simplemente funcionan,
+sin nada nuevo que aprender o configurar.
