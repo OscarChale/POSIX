@@ -1,0 +1,98 @@
+Lista de comandos CMD en Windows (MS-DOS)
+
+CMD (abreviatura de CoMmanD) es un programa (cmd.exe) de Microsoft Windows 
+equivalente al programa command.com –intérprete de comandos– de MS-DOS
+(MicroSoft Disk Operating System).
+
+
+
+Comando      Funcionalidad
+
+ASSOC *	   |Muestra o modifica las asociaciones de las extensiones de archivos.
+AT	   |Planifica comandos y programas para ejecutarse en un equipo. Está en desuso, en su lugar se recomienda utilizar schtask.exe.
+ATTRIB	   |Muestra o cambia los atributos del archivo.
+BREAK *	   |Establece o elimina la comprobación extendida de Ctrl+C en los sistemas MS-DOS. Este comando ya no está en uso. Se incluye para preservar la compatibilidad con archivos de MS-DOS ya existentes, pero no tiene ningún efecto en la línea de comandos porque la funcionalidad es automática.
+CALCS	   |Muestra o modifica las listas de control de acceso (ACLs) de archivos.
+CALL *	   |Llama a un programa por lotes desde otro.
+CD *	   |Muestra el nombre del directorio actual o cambia a otro directorio.
+CHCP	   |Muestra o establece el número de página de códigos activa.
+CHDIR *	   |Muestra el nombre del directorio actual o cambia a otro directorio.
+CHKDSK	   |Comprueba un disco y muestra un informe de su estado.
+CHKNTFS	   |Muestra o modifica la comprobación de disco al iniciar (arrancar).
+CLS *	   |Borra la pantalla.
+CMD	   |Inicia una nueva instancia del intérprete de comandos de Windows.
+COLOR *	   |Establece los colores del primer plano y fondo predeterminados de la consola.
+COMP	   |Compara el contenido de dos archivos o un conjunto de archivos.
+COMPACT	   |Muestra o cambia el estado de compresión de archivos en particiones NTFS.
+CONVERT	   |Convierte volúmenes FAT a volúmenes NTFS. No puede convertir la unidad actual.
+COPY *	   |Copia uno o más archivos a otro lugar (en otra ubicación).
+DATE *	   |Muestra o establece la fecha.
+DEL *	   |Elimina uno o más archivos.
+DIR *	   |Muestra una lista de archivos y subdirectorios en un directorio.
+DISKPART   |Muestra o configura las propiedades de partición de disco.
+DISKCOMP   |Compara el contenido de dos disquetes.
+DOSKEY	   |Edita líneas de comando, recupera comandos de Windows y crea macros.
+DRIVERQUERY|Muestra el estado y las propiedades actuales del controlador de dispositivo.
+ECHO *	   |Muestra mensajes, o activa y desactiva el eco.
+ENDLOCAL|  |Termina la búsqueda de variables de entorno del archivo por lotes.
+ERASE *	   |Elimina uno o más archivos.
+EXIT *     |Sale del programa cmd.exe (intérprete de comandos).
+FC	   |Compara dos archivos o conjunto de archivos y muestra las diferencias entre ellos.
+FIND	   |Busca una cadena de texto en uno o más archivos.
+FINDSTR	   |Busca cadenas de texto en archivos.
+FOR *	   |Ejecuta un comando para cada archivo en un conjunto de archivos.
+FORMAT	   |Formatea un disco para usarse con Windows.
+FSUTIL	   |Muestra o configura las propiedades del sistema de archivos.
+FTYPE *	   |Muestra o modifica los tipos de archivo usados en asociaciones de extensión de archivo.
+GOTO *	   |Direcciona el intérprete de comandos de Windows a una línea con etiqueta.
+GPRESULT   |Muestra información de directiva de grupo por equipo o usuario.
+GRAFTABL   |Permite a Windows mostrar un conjunto de caracteres extendidos en modo gráfico.
+HELP	   |Proporciona información de ayuda para los comandos Windows.
+ICACLS	   |Muestra, modifica, hace copias de seguridad o restaura listas de control de acceso (ACL) para archivos y directorios.
+IF *	   |Ejecuta procesos condicionales en programas por lotes.
+LABEL	   |Crea, cambia o elimina la etiqueta del volumen de un disco.
+MD *	   |Crea un directorio.
+MKDIR *	   |Crea un directorio.
+MKLINK *   |Crea vínculos simbólicos y vínculos físicos.
+MODE	   |Configura un dispositivo de sistema.
+MORE	   |Muestra la información pantalla por pantalla.
+MOVE *	   |Mueve uno o más archivos de un directorio a otro.
+OPENFILES  |Muestra archivos compartidos abiertos por usuarios remotos como recurso compartido de archivos.
+PATH *	   |Muestra o establece una ruta de búsqueda para archivos ejecutables.
+PAUSE *	   |Suspende el proceso de un archivo por lotes y muestra un mensaje.
+POPD *	   |Restaura el valor anterior del directorio actual guardado en PUSHD.
+PRINT	   |Imprime un archivo de texto.
+PROMPT *   |Cambia el símbolo de comandos de Windows.
+PUSHD *	   |Guarda el directorio actual y después lo cambia.
+RD *	   |Elimina un directorio.
+RECOVER	   |Recupera la información legible de un disco dañado o defectuoso.
+REM *	   |Registra comentarios (notas) en archivos por lotes o CONFIG.SYS.
+REN *	   |Cambia el nombre de uno o más archivos.
+RENAME *   |Cambia el nombre de uno o más archivos.
+REPLACE	   |Reemplaza archivos.
+RMDIR *	   |Elimina (quita) un directorio.
+ROBOCOPY   |Utilidad avanzada para copiar archivos y árboles de directorios.
+SC	   |Muestra o configura servicios (procesos en segundo plano).
+SCHTASKS   |Programa comandos y programa para ejecutarse en un equipo
+SET *	   |Muestra, establece o elimina (quita) variables de entorno en Windows.
+SETLOCAL   | Inicia la localización de los cambios de entorno en un archivo por lotes.
+SHIFT *	   |Cambia la posición de parámetros reemplazables en archivos por lotes.
+SHUTDOWN   |Permite el apagado local o remoto de un equipo.
+SORT	   |Ordena la salida.
+START *	   |Inicia otra ventana para ejecutar un programa o comando especificado.
+SUBST	   |Asocia una ruta de acceso con una letra de unidad.
+SYSTEMINFO |Muestra las propiedades y la configuración específicas del equipo.
+TASKKILL   |Termina o interrumpe un proceso o aplicación que se está ejecutando.
+TASKLIST   |Muestra todas las tareas en ejecución, incluidos los servicios.
+TIME *	   |Muestra o establece la hora del sistema.
+TITLE *	   |Establece el título de la ventana de una sesión de cmd.exe.
+TREE	   |Muestra gráficamente la estructura de directorios de una unidad o ruta de acceso.
+TYPE *	   |Muestra el contenido de uno o más archivos de texto (.bat, .txt,...).
+VER *	   |Muestra la versión de Windows.
+VERIFY *   |Comunica a Windows si debe comprobar que los archivos se escriben de forma correcta en un disco.
+VOL *	   |Muestra la etiqueta del volumen y el número de serie del disco.
+WMIC	   |Muestra información de WMI en el shell de comandos interactivo.
+XCOPY	   |Copia archivos y árboles de directorios.
+-
+-
+
